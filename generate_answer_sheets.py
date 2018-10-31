@@ -56,8 +56,8 @@ def func(student_id):
 
     font = ImageFont.truetype(fontpath, 50)
 
-    draw.text((190,150), u'学籍番号:  ' + student_id, font=font, fill='#000000')
-    draw.rectangle((425, 140, 715, 212), outline='#000000')
+    draw.text((200,150), u'学籍番号:  ' + student_id, font=font, fill='#000000')
+    draw.rectangle((435, 140, 725, 212), outline='#000000')
     draw.text((200,250), u'氏名: ', font=font, fill='#000000')
     draw.line((350,300,900,300), fill='#000000', width=1)
     draw.text((200,350), u'学部・学科: ', font=font, fill='#000000')
